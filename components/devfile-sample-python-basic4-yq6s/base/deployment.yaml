@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-python-basic4-yq6s
     spec:
       containers:
-      - image: quay.io/redhat-appstudio/user-workload:mreid1-tenant-devfile-sample-python-basic4-yq6s
+      - image: quay.io/redhat-appstudio/user-workload@sha256:2d4ee255622a5dcf59bf8a9da3744aacd64f981456a048fc6f9559a5270e26ea
         imagePullPolicy: Always
         livenessProbe:
           httpGet:
