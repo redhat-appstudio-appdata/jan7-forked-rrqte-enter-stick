@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-python-basic4-yq6s
+  namespace: mreid1-tenant
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio/user-workload@sha256:2d4ee255622a5dcf59bf8a9da3744aacd64f981456a048fc6f9559a5270e26ea
+        name: container-image
+        resources: {}
+status: {}
